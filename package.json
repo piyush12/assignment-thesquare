@@ -13,7 +13,8 @@
     "format:index": "prettier --write \"*.{js,json,md}\"",
     "format:pages": "prettier --write \"pages/**/*.js\"",
     "format:src": "prettier --write \"src/**/*.{js,md,mdx}\"",
-    "mock-server": "json-server --watch ./db.json -p 4001 -d 1000"
+    "mock-server": "json-server --watch ./db.json -p 4001 -d 1000",
+    "export": "next export"
   },
   "dependencies": {
     "@emotion/babel-preset-css-prop": "latest",
